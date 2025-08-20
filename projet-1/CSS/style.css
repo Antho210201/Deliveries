@@ -1,0 +1,71 @@
+/* Menu principal */
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #333;
+  text-align: center; /* centre les éléments du menu */
+}
+
+
+.menu > li {
+  display: inline-block; /* place les <li> côte à côte */
+  position: relative;    /* nécessaire pour positionner les sous-menus */
+}
+
+.menu > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu > li > a:hover {
+  background: #444;
+}
+
+/* Sous-menus */
+.submenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;   /* juste en dessous du parent */
+  left: 0;
+  background: #444;
+  display: none; /* caché par défaut */
+  min-width: 180px;
+  text-align: left;
+}
+
+.submenu li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.submenu li a:hover {
+  background: #555;
+}
+
+/* Affiche le sous-menu au survol */
+.menu li:hover .submenu {
+  display: block;
+}
+
+.menu a.egg-active{
+    color: red;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 960px ;
+}
+
+.about,.contact,.events,.gallery,.home,.product,.shop{
+    background-color: green;
+}
+
+
