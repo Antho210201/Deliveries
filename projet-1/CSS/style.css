@@ -121,7 +121,75 @@
   margin: 20px 0;
 }
 
-.about-text{
+.about-text,.product-text,.events-text,.gallery h2,.shop h2,.contact h2{
     font-family: "Times New Roman", Georgia, Serif;
     font-size: 30px;
+}
+
+.product-link{
+    margin-top: 200px;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 50px;
+    letter-spacing:25.6px;
+}
+
+.product-link a{
+    background-color: #4b2e2e; 
+    color: white;
+    text-decoration: none;
+
+}
+
+.title-table{
+    background-color: #4b2e2e; 
+    color: white;
+    text-align: center;
+}
+
+.past-events{
+    font-style: italic;
+    background-color: grey; 
+
+}
+
+.future-events{
+
+    font-weight: bold;
+    background-color: orange;
+
+}
+
+.promo-before{
+    font-style:italic;
+    text-decoration:line-through;
+
+}
+
+.promo-after{
+    font-weight:bold;
+
+}
+
+.yourclass {
+  display: block;       
+  margin-bottom: 15px;  
+  padding: 8px;        
+  width: 300px;         
+  border-radius: 5px;   
+  border: 1px solid #ccc;
+}
+
+.accueil-ee{
+    font-family: "Comic sans MS", Georgia, Serif;
+    font-size: 30px;
+    color: rgb(248, 5, 195);
+
+}
+
+.accueil-ee h2{
+    text-align: center;
+}
+
+.title-recette{
+    text-align: center;
 }
